@@ -1,0 +1,71 @@
+.custom-nav {
+    width: 100%;
+    .row {
+        height: 70px;
+        .col {
+            background-color: rgba(black, .65);
+            .brand-content {
+                height: 100%;
+                min-width: 100 !important;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-left: 16px;
+            }
+            .btn-content {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-right: 16px;
+                .btn-statistics,
+                .btn-home {
+                    margin-right: 10px !important;
+                }
+                .btn-text {
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}
+
+.loading-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .info-content {
+        margin-top: 30px;
+        width: 400px;
+    }
+}
+
+.main-content {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 10px;
+    border-top: 1px solid rgba(black, .1);
+    .chat-input {
+        margin-bottom: 16px;
+    }
+    .message-content {
+        margin-bottom: 8px !important;
+        .badge {
+            border-radius: 20px;
+            padding: 10px 16px 10px 16px;
+            // opacity: .75;
+            font-size: .9rem;
+            font-weight: 100;
+            .fa-robot {
+                margin-right: 16px;
+            }
+        }
+        .timestamp {
+            padding: 0 !important;
+            font-size: 0.7rem;
+            margin-left: 10px;
+        }
+    }
+}
